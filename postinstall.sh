@@ -12,10 +12,4 @@ systemctl enable lightdm
 systemctl enable graphical.target --force
 systemctl set-default graphical.target
 
-# create dummy display for OS to launch
-git clone https://github.com/dianariyanto/virtual-display-linux.git
-cd virtual-display-linux
-chmod +x vdl-monitor
-./vdl-monitor
-
 su - ss -c "curl https://raw.githubusercontent.com/MrYellowSock/preseed-debian-i3/master/postinstall_user.sh | bash"
