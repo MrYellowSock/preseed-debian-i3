@@ -8,7 +8,6 @@ apt-get -y install i3 xorg xinit lightdm thunar neovim git xrdp xfce4-terminal f
 
 # enabling i3 desktop
 systemctl enable lightdm
-systemctl enable lightdm
 systemctl enable graphical.target --force
 systemctl set-default graphical.target
 
