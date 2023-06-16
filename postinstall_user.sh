@@ -6,7 +6,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
-nvm install --lts
+nvm install v16.3.0
 mkdir -p ~/JobCredentials/con-release/
 mkdir -p ~/.config/i3/
 mkdir -p ~/.config/i3status/
